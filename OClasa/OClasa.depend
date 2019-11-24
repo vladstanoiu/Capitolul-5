@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1574610178 source:c:\users\vlad\desktop\proiecte\oclasa\main.cpp
+	<iostream>
+	"BecReglabil.h"
+
+1574609999 c:\users\vlad\desktop\proiecte\oclasa\include\becreglabil.h
+	<iostream>
+
+1574610010 source:c:\users\vlad\desktop\proiecte\oclasa\src\becreglabil.cpp
+	"BecReglabil.h"
+
