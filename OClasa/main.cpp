@@ -14,7 +14,7 @@ Apelați la ambele obiecte metoda ReduceLumina (75)  și apoi metoda StareBec */
 
 int main()
 {
-    BecReglabil bec75 , bec100;
+    BecReglabil bec75{} , bec100{};
     bec75.SetPutereCurenta (0);
     bec75.SetPutereMaxima (75);
     bec100.SetPutereCurenta (0);
@@ -24,18 +24,21 @@ int main()
     bec75.StareaBec();
     bec100.Aprinde();
     bec100.StareaBec();
+    cout << "Puterea curenta a becului 75 = " << bec75.GetPutereCurenta() <<endl;
+    cout << "Puterea curenta a becului 100 = " << bec100.GetPutereCurenta() <<endl;
 
     bec75.Stinge();
     bec75.StareaBec();
     bec100.Stinge();
     bec100.StareaBec();
-
+    cout << "Puterea curenta a becului 75 = " << bec75.GetPutereCurenta() << endl;
+    cout << "Puterea curenta a becului 100 = " << bec100.GetPutereCurenta() << endl;
     bec75.MaresteLumina(90);
     bec75.StareaBec();
     bec100.MaresteLumina(90);
     bec100.StareaBec();
-
-
+    cout << "Puterea curenta a becului 75 = " << bec75.GetPutereCurenta() << endl;
+    cout << "Puterea curenta a becului 100 = " << bec100.GetPutereCurenta() << endl;
     bec75.ReduceLumina(75);
     bec75.StareaBec();
     bec100.ReduceLumina(75);
