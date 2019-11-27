@@ -14,8 +14,8 @@ private:
         void SetPutereMaxima (unsigned short putMaxima) { putereMaxima = putMaxima;}
         void SetPutereCurenta (unsigned short putCurenta) {putereCurenta = putCurenta;}
 
-        unsigned short GetPutereMaxima () {return putereMaxima;}
-        unsigned short GetPutereCurenta () {return putereCurenta;}
+        unsigned short GetPutereMaxima() {return putereMaxima;}
+        unsigned short GetPutereCurenta() {return putereCurenta;}
 
         void Aprinde();
         void Stinge();
