@@ -20,9 +20,8 @@ void BecReglabil::Stinge()
     aprins = false;
     putereCurenta = 0;
 }
-short BecReglabil::MaresteLumina(short)
+short BecReglabil::MaresteLumina(short lumina)
 {
-    short lumina;
     putereCurenta += lumina;
     if (putereCurenta > putereMaxima)
     {
@@ -31,17 +30,16 @@ short BecReglabil::MaresteLumina(short)
     aprins = true;
     return 0;
 }
-short BecReglabil::ReduceLumina(short)
+short BecReglabil::ReduceLumina(short lumina)
 {
-    short lumina;
-    putereCurenta -= lumina;
-    if (putereCurenta < 0)
+    if (putereCurenta < lumina)
     {
         putereCurenta = 0;
-        if (putereCurenta == 0)
-        {
-            aprins = false;
-        }
+        aprins = false;
+    }
+
+    else {
+        putereCurenta -= lumina;
     }
     return 0;
 }
