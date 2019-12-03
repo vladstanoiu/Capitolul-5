@@ -1,0 +1,38 @@
+# depslib dependency file v1.0
+1574889798 source:c:\users\vlad\desktop\proiecte\douaclase\main.cpp
+	<iostream>
+	"Candelabru.h"
+	"BecReglabil.h"
+
+1574891692 c:\users\vlad\desktop\proiecte\douaclase\include\candelabru.h
+	"BecReglabil.h"
+
+1574628369 c:\users\vlad\desktop\proiecte\douaclase\include\becreglabil.h
+	<iostream>
+
+1574630590 source:c:\users\vlad\desktop\proiecte\douaclase\src\candelabru.cpp
+	"Candelabru.h"
+	"BecReglabil.h"
+
+1574801333 source:c:\users\vlad\desktop\proiecte\douaclase\src\becreglabil.cpp
+	"BecReglabil.h"
+
+1575414738 source:d:\it\proiecte\douaclase\main.cpp
+	<iostream>
+	"Candelabru.h"
+	"BecReglabil.h"
+
+1575414659 d:\it\proiecte\douaclase\include\candelabru.h
+
+1575408615 d:\it\proiecte\douaclase\include\becreglabil.h
+	<iostream>
+
+1575414489 source:d:\it\proiecte\douaclase\src\becreglabil.cpp
+	"BecReglabil.h"
+	"Candelabru.h"
+
+1575414659 source:d:\it\proiecte\douaclase\src\candelabru.cpp
+	"Candelabru.h"
+	"BecReglabil.h"
+	<iostream>
+
