@@ -10,7 +10,7 @@ private:
 
 public:
 
-    void ConfigureazaCandelabru(unsigned short nrBecuri);
+    void ConfigureazaCandelabru(unsigned short);
     void AprindeLumina();
     void StingeLumina();
     void MaresteLumina(unsigned short);
